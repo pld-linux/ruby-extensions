@@ -10,7 +10,7 @@ License:	GPL
 Group:		Development/Languages
 Source0:	http://rubyforge.org/frs/download.php/1624/extensions-%{version}.tgz
 # Source0-md5:	1ff1393255a880a6f563127847a3721d
-URL:	http://extensions.rubyforge.org/
+URL:		http://extensions.rubyforge.org/
 BuildRequires:	ruby
 BuildRequires:	ruby-devel
 Requires:	ruby
