@@ -2,6 +2,7 @@
 %define ruby_rubylibdir %(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
 %define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
 Summary:	Semi-standard extensions to Ruby
+Summary(pl):	Pó³standardowe rozszerzenia dla Ruby
 Name:		ruby-extensions
 Version:	0.5.0
 Release:	1
@@ -16,8 +17,14 @@ Requires:	ruby
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-extensions provides utilites to assist the process of developing Ruby programs.
-At the moment, the target areas are debugging and unit testing (planned).
+extensions provides utilites to assist the process of developing Ruby
+programs. At the moment, the target areas are debugging and unit
+testing (planned).
+
+%description -l pl
+extensions udostêpnia narzêdzia wspomagaj±ce proces rozwoju programów
+w Ruby. Obecnie docelowymi obszarami s±: debugowanie i testowanie
+modu³ów (w planach).
 
 %prep
 %setup -q -n extensions-%{version}
