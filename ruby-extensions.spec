@@ -4,12 +4,12 @@
 Summary:	Semi-standard extensions to Ruby
 Summary(pl):	Pó³standardowe rozszerzenia dla Ruby
 Name:		ruby-extensions
-Version:	0.5.0
+Version:	0.6.0
 Release:	1
 License:	GPL
 Group:		Development/Languages
-Source0:	http://rubyforge.org/frs/download.php/1624/extensions-%{version}.tgz
-# Source0-md5:	1ff1393255a880a6f563127847a3721d
+Source0:	http://rubyforge.org/frs/download.php/2144/extensions-%{version}.tgz
+# Source0-md5:	f9deb99d623d74b47a536414baa4d1d2
 URL:		http://extensions.rubyforge.org/
 BuildRequires:	ruby
 BuildRequires:	ruby-devel
