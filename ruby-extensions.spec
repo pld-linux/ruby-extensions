@@ -1,6 +1,3 @@
-%define	ruby_archdir	%(ruby -r rbconfig -e 'print Config::CONFIG["archdir"]')
-%define ruby_rubylibdir %(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
-%define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
 Summary:	Semi-standard extensions to Ruby
 Summary(pl):	Pó³standardowe rozszerzenia dla Ruby
 Name:		ruby-extensions
@@ -11,6 +8,7 @@ Group:		Development/Languages
 Source0:	http://rubyforge.org/frs/download.php/2144/extensions-%{version}.tgz
 # Source0-md5:	f9deb99d623d74b47a536414baa4d1d2
 URL:		http://extensions.rubyforge.org/
+BuildRequires:	rpmbuild(macros) >= 1.263
 BuildRequires:	ruby
 BuildRequires:	ruby-devel
 Requires:	ruby
