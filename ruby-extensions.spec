@@ -9,7 +9,6 @@ Source0:	http://rubyforge.org/frs/download.php/2144/extensions-%{version}.tgz
 # Source0-md5:	f9deb99d623d74b47a536414baa4d1d2
 URL:		http://extensions.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
 Requires:	ruby-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
