@@ -10,7 +10,7 @@ Source0:	http://rubyforge.org/frs/download.php/2144/extensions-%{version}.tgz
 URL:		http://extensions.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-%ruby_mod_ver_requires_eq
+%{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
