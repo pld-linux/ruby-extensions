@@ -1,5 +1,5 @@
 Summary:	Semi-standard extensions to Ruby
-Summary(pl.UTF-8):   Półstandardowe rozszerzenia dla Ruby
+Summary(pl.UTF-8):	Półstandardowe rozszerzenia dla Ruby
 Name:		ruby-extensions
 Version:	0.6.0
 Release:	2
