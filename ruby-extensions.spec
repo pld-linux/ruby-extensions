@@ -1,5 +1,5 @@
 Summary:	Semi-standard extensions to Ruby
-Summary(pl):	Pó³standardowe rozszerzenia dla Ruby
+Summary(pl.UTF-8):   PÃ³Å‚standardowe rozszerzenia dla Ruby
 Name:		ruby-extensions
 Version:	0.6.0
 Release:	2
@@ -18,10 +18,10 @@ extensions provides utilites to assist the process of developing Ruby
 programs. At the moment, the target areas are debugging and unit
 testing (planned).
 
-%description -l pl
-extensions udostêpnia narzêdzia wspomagaj±ce proces rozwoju programów
-w Ruby. Obecnie docelowymi obszarami s±: debugowanie i testowanie
-modu³ów (w planach).
+%description -l pl.UTF-8
+extensions udostÄ™pnia narzÄ™dzia wspomagajÄ…ce proces rozwoju programÃ³w
+w Ruby. Obecnie docelowymi obszarami sÄ…: debugowanie i testowanie
+moduÅ‚Ã³w (w planach).
 
 %prep
 %setup -q -n extensions-%{version}
